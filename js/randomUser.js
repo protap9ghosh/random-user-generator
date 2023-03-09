@@ -13,12 +13,8 @@ const displayUser = user => {
     userInfo.style.backgroundColor = "#e1e5f2"
     userInfo.style.paddingLeft = "10px"
 
-    const userPic = document.getElementById('userPic');
-
-    const image = document.createElement('img');
     image.style.borderRadius = '50%'
     image.src = (`${user.results[0].picture.large}`)
-    userPic.appendChild(image)
 
     const userName = document.getElementById('name');
     userName.innerText = user.results[0].name.title + ' ' + user.results[0].name.first + ' ' + user.results[0].name.last

@@ -1,0 +1,14 @@
+.generate-btn {
+    color: #FFFFFF;
+    padding: 15px;
+    font-weight: 600;
+    background-color: #759bd4;
+    border: 1px solid #4b6cc7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.generate-btn:hover {
+    color: #FFFFFF;
+    background-color: #5a8cd6;
+}
