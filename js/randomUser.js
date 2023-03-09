@@ -44,6 +44,9 @@ const displayUser = user => {
     gender.innerText = user.results[0].gender;
     gender.style.fontStyle = 'italic';
 
+    const generateBtn = document.getElementById('generate-btn');
+    generateBtn.classList = ('generate-btn');
+
     console.log(user.results[0])
 }
 
